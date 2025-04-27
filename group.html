@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elizabeth Wamalwa's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #0078d4;
+            color: white;
+            padding: 10px 20px;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 15px;
+        }
+        nav ul li {
+            cursor: pointer;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #0078d4;
+            color: white;
+        }
+        section {
+            padding: 20px;
+        }
+        .actions {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .actions button {
+            padding: 10px 15px;
+            background-color: #0078d4;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .container {
+            display: flex;
+            gap: 20px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+        }
+        .left img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 8px;
+        }
+        .skills-container {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+        }
+        .skills-left img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 8px;
+        }
+        .skills-right h2 {
+            color: #0078d4;
+        }
+        .skills-right h3 {
+            font-size: 24px;
+            font-weight: bold;
+            color: black;
+        }
+        .skills-right p {
+            margin-top: 15px;
+        }
+        .skill {
+            margin: 15px 0;
+        }
+        .skill-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .skill-bar {
+            width: 100%;
+            height: 5px;
+            border-radius: 5px;
+            background-color: #ddd;
+            position: relative;
+        }
+        .skill-bar span {
+            display: block;
+            height: 100%;
+            border-radius: 5px;
+        }
+        .skill-bar.uiux span {
+            width: 90%;
+            background-color: #0078d4;
+        }
+        .skill-bar.idea span {
+            width: 95%;
+            background-color: #4caf50;
+        }
+        .skill-bar.branding span {
+            width: 85%;
+            background-color: #f4b400;
+        }
+        .skill-bar.responsive span {
+            width: 95%;
+            background-color: #ff5722;
+        }
+        .final-section {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+        }
+        .left, .center {
+            flex: 1;
+            padding: 10px;
+        }
+        .right {
+            flex: 1;
+            text-align: center;
+        }
+        .feature-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+        .feature-item .icon {
+            font-size: 24px;
+            margin-right: 10px;
+            color: #0078d4;
+        }
+        .feature-item h3 {
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+        .feature-item p {
+            font-size: 14px;
+            color: #666;
+        }
+        .right img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li>UI Portfolio</li>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Blog</li>
+            <li>Page</li>
+            <li>Contact</li>
+            <li>Hire Me</li>
+        </ul>
+        <div>
+            <button>🔍</button> <!-- Search Icon -->
+            <button>🌙</button> <!-- Dark Mode Icon -->
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Hi, I am Elizabeth Wamalwa, Web Designer</h1>
+    </header>
+
+    <!-- About Section -->
+    <section>
+        <p>I love graphic design and photography and have been working on my portfolio since 2016. I can give your business a new Creative start right away!</p>
+        <div class="actions">
+            <button>Hire Me</button>
+            <button>My Portfolio</button>
+        </div>
+    </section>
+
+    <!-- Biography Section -->
+    <div class="container">
+        <div class="left">
+            <img src="your-image.jpg" alt="Elizabeth Wamalwa"> <!-- Replace "your-image.jpg" with the actual image path -->
+        </div>
+        <div class="center">
+            <h2>My Biography</h2>
+            <h3>A Lead UI Designer & Web Developer in UK</h3>
+            <p>I love Graphic design and Photography and have been working on my portfolio since 2016. I can give your business a new Creative start right away! Contact me and we will discuss your projects!</p>
+            <p><strong>Name:</strong> Elizabeth Wamalwa</p>
+            <p><strong>Email:</strong> yanniemumaraki@gmail.com</p>
+            <p><strong>From:</strong> Kenya</p>
+            <p><strong>Phone:</strong> 0790923641</p>
+        </div>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="skills-container">
+        <div class="skills-left">
+            <img src="skills-image1.jpg" alt="Skill Image 1"> <!-- Replace "skills-image1.jpg" with the actual image path -->
+            <img src="skills-image2.jpg" alt="Skill Image 2"> <!-- Replace "skills-image2.jpg" with the actual image path -->
+        </div>
+        <div class="skills-right">
+            <h2>My Skills</h2>
+            <h3>A Lead UI Designer</h3>
+            <p>I specialize in Branding and Strategy, and am passionate about creating Awesome Portfolio work. And I am always ready to impress the audience with my Creativity.</p>
+
+            <!-- Skill Levels -->
+            <div class="skill">
+                <div class="skill-title">UI/UX Design</div>
+                <div class="skill-bar uiux"><span></span></div>
+            </div>
+            <div class="skill">
+                <div class="skill-title">Idea and Technology</div>
+                <div class="skill-bar idea"><span></span></div>
+            </div>
+            <div class="skill">
+                <div class="skill-title">Branding Design</div>
+                <div class="skill-bar branding"><span></span></div>
+            </div>
+            <div class="skill">
+                <div class="skill-title">Responsive Web Design</div>
+                <div class="skill-bar responsive"><span></span></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Final Section -->
+    <div class="final-section">
+        <!-- Left Side -->
+        <div class="left">
+            <div class="feature-item">
+                <div class="icon">💻</div>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum viverra libero set. Pellen ut justo, in ligula at.</p>
+            </div>
+            <div class="feature-item">
+                <div class="icon">🔍</div>
+                <h3>Research and Analysis</h3>
+                <p>Lorem ipsum viverra libero set. Pellen ut justo, in ligula at.</p>
+            </div>
+            <div class="feature-item">
+                <div class="icon">📱</div>
+                <h3>Responsive Designs</h3>
+                <p>Lorem ipsum viverra libero set. Pellen ut justo, in ligula at.</p>
+            </div>
+        </div>
+
+        <!-- Center -->
+        <div class="center">
+            <div class="feature-item">
+                <div class="icon">📱</div>
+                <h3>Design Trends</h3>
+                <p>Lorem ipsum viverra libero set. Pellen ut justo, in ligula at.</p>
+            </div>
+        </div>
+            <div class="feature-item">
+                <div class="icon">📱</div>
+                <h3>Customer Support</h3>
+                <p>Lorem ipsum viverra libero set. Pellen ut justo, in ligula at.</p>
+            </div>
+        </div>
+            <div class="feature-item">
+                <div class="icon">📱</div>
+                <h3>PSD Design</h3>
+                <p>Lorem ipsum viverra libero set. Pellen ut justo, in ligula at.</p>
+            </div>
+        </div>
+                
+
+
